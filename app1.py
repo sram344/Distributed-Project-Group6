@@ -35,9 +35,9 @@ def upload():
         p=model.predict(x)
         
         if(p[0]==0):
-            text1="The tumour is malignant"
+            text1="This is Scottish Deerhound"
         elif(p[0]==1):
-            text1="The tumour is benign"
+            text1="This is not  Scottish Deerhound"
         
     return text1
 
